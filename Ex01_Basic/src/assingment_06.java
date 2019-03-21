@@ -1,0 +1,13 @@
+
+public class assingment_06 {
+	public static void main (String[] args) {
+		
+		String w = "ÀÌ±è";
+		String d = "ºñ±è";
+		String ¤Ó = "Áü";
+		
+		
+		
+	}
+
+}

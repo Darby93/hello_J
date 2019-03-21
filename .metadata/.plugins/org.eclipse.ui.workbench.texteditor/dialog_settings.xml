@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="org.eclipse.ui.texteditor.FindReplaceDialog">
+		<item value="false" key="isRegEx"/>
+		<item value="loadHotel" key="selection"/>
+		<item value="false" key="casesensitive"/>
+		<item value="false" key="wholeword"/>
+		<list key="findhistory">
+			<item value="loadHotel"/>
+			<item value="setRoom"/>
+			<item value="부가서비스"/>
+			<item value="입렵"/>
+			<item value="roomma"/>
+			<item value="menu"/>
+			<item value="signup"/>
+			<item value="com"/>
+		</list>
+		<list key="replacehistory">
+		</list>
+	</section>
+</section>
