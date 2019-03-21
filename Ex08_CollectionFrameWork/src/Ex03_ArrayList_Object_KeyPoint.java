@@ -16,7 +16,7 @@ public class Ex03_ArrayList_Object_KeyPoint {
 			System.out.println(emp.toString());
 		}
 		
-		//커밋확인
+		//커밋 시험용!
 		
 		//실수 했어요 한명이 입사를 더 했음....
 		//위 정적배열에 추가하는건 불가(x) -> 새로 new하지 않으면 불가
