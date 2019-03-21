@@ -1,0 +1,26 @@
+//static method
+class StaticClass{
+	int iv; //멤버필드
+	static int cv; //멤버필드
+	
+	//일반함수
+	void m () {
+		
+	}
+}
+
+
+
+
+
+
+
+public class Ex07_Static_Method {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,13 @@
+package Group_2;
+
+public class Vacuum {
+	private String company;
+	private String model;
+	private String color;
+	private String date;
+	private int maxBattety;
+	
+	
+	
+	
+}

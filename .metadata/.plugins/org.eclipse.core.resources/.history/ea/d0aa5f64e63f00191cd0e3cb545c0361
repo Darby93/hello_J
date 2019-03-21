@@ -1,0 +1,49 @@
+import java.io.File;
+
+public class Cmd_RENAME {
+	static String path = "C:\\Temp\\";
+	public static void main(String[] args) {
+		
+		
+		if (args.length == 0) {
+			System.out.println("사용법이 맞지 않습니다");
+			System.out.println("다음과 같이 사용하세요");
+			System.out.println("java ExDos [명령어] [(필요할 경우) 명령어에 필요한 인자]");
+			System.exit(0);
+		}
+		
+		if(args[0].equals("RENAME") && args[1].equals("/?")){
+			System.out.println("파일 이름을 바꿉니다.\r\n" + 
+					"\r\n" + 
+					"RENAME [드라이브:][경로]파일이름1 파일이름2.\r\n" + 
+					"REN [드라이브:][경로]파일이름1 파일이름2.\r\n" + 
+					"\r\n" + 
+					"대상 파일로 새 드라이브나 경로를 지정할 수 없음을 주의하십시오.");
+			System.exit(0);
+		}
+		
+		 int index = args[1].lastIndexOf('\\');
+		
+		File file1 = new File(args[1]);
+	    File file2 = new File(args[1].substring(0,index+1) + args[2]);
+		
+	    if(args[0].equals("RENAME")) {
+			rename(file1, file2);
+		}
+		
+	}
+	
+	static void rename(File file1, File file2) {
+		
+		
+		if(!file1.exists()||!file2.exists()) {
+			System.out.println("명령 구문이 올바르지 않습니다.");
+			System.exit(0); //프로세스 종료
+		}
+		
+		if(!file1.renameTo(file2)) {
+			System.out.println("이름 변경 에러");
+		}
+	}
+	
+}

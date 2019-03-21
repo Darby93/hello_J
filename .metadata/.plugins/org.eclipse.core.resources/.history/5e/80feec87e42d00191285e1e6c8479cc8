@@ -1,0 +1,18 @@
+package Study;
+
+public class Study_01 {
+
+	public static void main(String[] args) {
+		int a = 4;
+		int b = 3;
+		
+		int m = ( a < b ? b : a );
+			System.out.println(m);
+		
+		
+		
+		
+		
+	}
+
+}

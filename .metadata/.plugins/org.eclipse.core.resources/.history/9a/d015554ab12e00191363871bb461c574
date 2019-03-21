@@ -1,0 +1,9 @@
+package Study_class;
+
+public class Fan {
+	String brand;
+	String model;
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+
+public class Ex08_Static_Method {
+	
+	int iv = 100;
+
+	public static void main(String[] args) {
+		Ex08_Static_Method ex = new Ex08_Static_Method();
+	}
+
+}

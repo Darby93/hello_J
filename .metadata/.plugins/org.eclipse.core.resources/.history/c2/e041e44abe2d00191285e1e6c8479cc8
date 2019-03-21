@@ -1,0 +1,14 @@
+package Group_2;
+
+public class Vacuum {
+	String company;
+	String model;
+	String color;
+		
+		
+		
+		
+		
+	
+
+}

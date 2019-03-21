@@ -1,0 +1,12 @@
+//main 함수 Scanner 사용 주민번호 입력받고
+//앞 : 6자리 뒷 : 7자리
+//입력값 : 123456 - 1234567
+//1.자리수 체크(기능)함수 (14 ok)
+public class Ex07_String_Total_Quiz {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

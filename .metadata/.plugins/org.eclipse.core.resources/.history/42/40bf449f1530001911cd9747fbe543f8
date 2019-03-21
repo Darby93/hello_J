@@ -1,0 +1,8 @@
+//배열을 만들 수 있는 타입
+//8가지 기본타입 + String + 사용자정의 class(type) + 
+public class Ex04_Object_Array {
+
+	public static void main(String[] args) {
+	}
+
+}

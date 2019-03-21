@@ -1,0 +1,18 @@
+
+import kr.or.bit.Car2;
+
+public class Ex10_Enit_Class {
+
+	public static void main(String[] args) {
+//		Car2 c = new Car2();
+//		System.out.println(c.e.wire);
+//	    System.out.println(c.e);
+		//☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
+		//   메모리구조 그려보기  복습 !!!!!☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
+		//☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★☆★
+		
+		InitTest init = new InitTest();
+		
+	}
+
+}

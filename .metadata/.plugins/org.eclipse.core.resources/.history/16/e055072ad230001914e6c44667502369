@@ -1,0 +1,23 @@
+class Man{
+	String name;
+	int age;
+}
+
+
+class Test{
+	Man add(Man m) {
+		m.name = "´©±¸";
+		m.age = 10;
+		
+		return m;
+	}
+}
+
+
+
+public class Ex12_Method_Overloading_Object {
+
+	public static void main(String[] args) {
+	}
+
+}

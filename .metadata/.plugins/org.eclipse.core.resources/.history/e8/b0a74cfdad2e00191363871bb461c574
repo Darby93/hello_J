@@ -1,0 +1,15 @@
+package Study;
+
+import Study_class.Card;
+
+public class Study_03 {
+
+	public static void main(String[] args) {
+		Card card = new Card();
+		card.num = 53;
+		card.shape = "ÇæÆ®";
+		card.h = 30;
+		card.w = 30;
+	}
+
+}

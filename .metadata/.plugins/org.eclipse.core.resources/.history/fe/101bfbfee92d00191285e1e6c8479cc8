@@ -1,0 +1,21 @@
+package Study;
+
+import java.util.Scanner;
+
+public class Study_02 {
+
+	public static void main(String[] args) {
+		
+		int a, b = 0;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("1. 숫자를 입력하세요 ");
+		int a = sc.nextInt();
+		
+		System.out.println("2. 숫자를 입력하세요 ");
+		int b = sc.nextInt();
+		
+	}
+
+}

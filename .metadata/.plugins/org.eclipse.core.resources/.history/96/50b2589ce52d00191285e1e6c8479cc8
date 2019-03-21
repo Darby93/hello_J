@@ -1,0 +1,6 @@
+package Study;
+
+public class Test {
+	public int a;
+	private int a;
+}

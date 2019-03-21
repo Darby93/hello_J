@@ -1,0 +1,21 @@
+package Study;
+
+public class Test {
+	public int a;
+	private int b;
+	
+	public int getB() {  //read
+		return b;
+	}
+	public void setB(int b) {  //write
+		this.b = b;
+	}
+	
+	public void add() {
+		System.out.println(2+3);
+	}
+	
+	
+	
+	
+}

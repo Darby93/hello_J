@@ -1,0 +1,40 @@
+package Study_class;
+
+public class Fan {
+	private String brand;
+	private String model;
+	private String color;
+	public int speed;
+	public boolean power;
+	private static int price;
+	public static int n = 0;
+	
+	Motor mo;
+	
+	public void powerOn() {
+		power = true;
+		System.out.println("전원이 켜졌습니다");
+	}
+
+	public void powerOff() {
+		power = false;
+		System.out.println("전원이 꺼졌습니다");
+	}
+	
+	public void speed(int speed) {
+
+		System.out.println(speed + "단계입니다.");
+	}
+	
+	public void fanInfo() {
+		n ++;
+		System.out.print("\n누적대수 : " + n);
+		System.out.printf("    브랜드 : %s , 모델 : %s , 색상 : %s" , brand , model, color);
+	}
+
+	
+	    
+
+}
+
+

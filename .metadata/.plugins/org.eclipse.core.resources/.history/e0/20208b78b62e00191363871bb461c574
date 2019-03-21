@@ -1,0 +1,29 @@
+package Study;
+
+
+import Study_class.Fan;
+import Study_class.Motor;
+
+
+public class Study_04 {
+
+	public static void main(String[] args) {
+		Fan fan = new Fan();
+		air.number = 101;
+		air.name = "種種1";
+		air.airInfo();
+		
+		
+		Motor motor = new motor;
+		air.number = 101;
+		air.name = "種種1";
+		air.airInfo();
+		
+		
+		
+		
+		
+		
+	}
+
+}

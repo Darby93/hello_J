@@ -1,0 +1,13 @@
+
+import kr.or.bit.Car2;
+
+public class Ex10_Enit_Class {
+
+	public static void main(String[] args) {
+		Car2 c = new Car2();
+		
+		
+		
+	}
+
+}

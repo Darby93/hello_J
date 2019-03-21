@@ -1,0 +1,6 @@
+package kr.or.bit;
+
+public class InitTest {
+	public static int cv = 1;
+	public int iv = 0;
+}

@@ -1,0 +1,17 @@
+package kr.or.bit;
+
+public class Airplane {
+	public int name;
+	public int number;
+	
+	//모든 카드의 크기는 고정
+	public static int h = 50;
+	public static int w = 20;
+	
+	//기능(정보)
+	public void cardInfo() {
+		System.out.printf("번호 : %d , 모양 : %s , h : %d , w : %d\n",number,kind,h,w);
+	}
+
+	public String name;
+}

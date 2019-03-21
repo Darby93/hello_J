@@ -1,0 +1,52 @@
+import java.awt.Button;
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.Label;
+import java.awt.TextField;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+
+class LoginForm3 extends Frame{
+	Label lbl_id;
+	Label lbl_pwd;
+	TextField txt_id;
+	TextField txt_pwd;
+	Button btn_ok;
+	
+	public LoginForm3(String title) {
+		super(title);
+		lbl_id = new Label("ID :" , Label.RIGHT);
+		lbl_pwd = new Label("PWD :" , Label.RIGHT);
+		
+		txt_id = new TextField(10);
+		txt_pwd = new TextField(10);
+		txt_pwd.setEchoChar('*');
+		btn_ok = new Button("login");
+		
+		this.setLayout(new FlowLayout()); //add 한 순서대로
+		
+		this.setSize(500, 100);
+		this.setVisible(true);
+		
+		this.add(lbl_id);
+		this.add(txt_id);
+		
+		this.add(lbl_pwd);
+		this.add(txt_pwd);
+		
+		this.add(btn_ok);
+		
+		//1. 다른 클래스 자원 사용 (생성자 주소값 받기).....
+
+	}
+	
+}
+public class Ex15_Button_Event_InnerClass {
+
+	public static void main(String[] args) {
+		LoginForm3 login = new LoginForm3("로그인");
+		
+	}
+
+}

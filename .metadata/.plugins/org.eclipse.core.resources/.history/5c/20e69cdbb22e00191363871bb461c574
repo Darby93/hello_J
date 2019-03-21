@@ -1,0 +1,23 @@
+package Study_class;
+
+public class Fan {
+	private String brand;
+	private String model;
+	private String color;
+	
+	private static int price;
+	
+	Motor mo;
+	
+	public void powerOn() {
+		System.out.println("전원이 켜졌습니다");
+	}
+
+	public void powerOff() {
+		System.out.println("전원이 꺼졌습니다");
+	}
+	    
+
+}
+
+

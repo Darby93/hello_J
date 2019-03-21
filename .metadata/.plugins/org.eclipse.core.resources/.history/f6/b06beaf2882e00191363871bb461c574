@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Ex09_Static_do_while_Menu {
+	static Scanner sc = new Scanner(System.in);
+	static void inputRecord() {
+		
+	}
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

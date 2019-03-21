@@ -1,0 +1,9 @@
+package Study_class;
+
+public class Card {
+	int num;
+	String shape;
+	
+	static int h = 0;
+	static int w = 0;
+}

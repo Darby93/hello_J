@@ -1,0 +1,49 @@
+package kr.or.bit.hotel;
+
+import java.text.SimpleDateFormat;
+import java.time.LocalDate;
+import java.time.LocalDateTime;
+import java.time.Period;
+import java.time.format.DateTimeFormatter;
+import java.util.Scanner;
+
+public class Test {
+	Scanner sc = new Scanner(System.in);
+	public void managerMenuPrint() {
+		System.out.println("2조 호텔 관리자 메뉴 입니다.");
+		System.out.println("┎                               ┒");
+		System.out.println("         1.   객실 관리");
+		System.out.println();
+		System.out.println("         2.   요금 설정");
+		System.out.println();
+		System.out.println("         3.   정보 확인");
+		System.out.println();
+		System.out.println("         4.   종료하기");
+		System.out.println("┖                               ┚");
+		
+		String select = sc.nextLine();
+		switch (select) {
+		case "1":
+//			roomManage();
+			break;
+		case "2":
+//			setPrice();
+			break;
+		case "3": 
+//			getInfo();
+			break;
+		case "4": 
+			//종료하고 어디로 가야하나용?
+			System.out.println("관리자 메뉴를 종료합니다.");
+		default: 
+			System.out.println("번호를 잘못 입력했습니다.");
+			break;
+
+		}
+	}
+	public static void main(String[] args) {
+		Test t = new Test();
+		managerMenuPrint();
+		
+	}
+}

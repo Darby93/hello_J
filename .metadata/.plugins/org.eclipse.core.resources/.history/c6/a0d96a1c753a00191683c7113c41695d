@@ -1,0 +1,7 @@
+package pattern;
+
+public class Drink {
+	public void boil() {
+		
+	}
+}

@@ -1,0 +1,24 @@
+package kr.or.bit;
+
+public class AirPlane {
+	public String name;
+	public int number;
+	
+	
+	public void airInfo() {
+		n +=1 ;
+		System.out.println("누적대수 : " + n);
+		System.out.printf("이름 : %s , 번호 : %d" , name ,number);
+	}
+
+	
+	public static int n = 0;
+	
+	
+	public void airN(){
+		n +=1 ;
+		System.out.println("누적대수 : " + n);
+		System.out.printf("이름 : %s , 번호 : %d" , name ,number);
+	}
+	
+}

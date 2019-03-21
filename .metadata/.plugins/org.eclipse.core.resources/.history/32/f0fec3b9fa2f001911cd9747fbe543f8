@@ -1,0 +1,84 @@
+package kr.or.bit;
+
+import java.util.Random;
+import java.util.Scanner;
+
+//설계도
+//Lotto lotto = new Lotto();
+//lotto.SelectLottoNumber(); >>
+//1 값 입력 >> selectBasicNumber()  함수 호출 (실번호 추출) >> 출력
+//2 값 입력 >> 프로그램 종료
+
+public class Lotto {
+	private Scanner scanner; //부품
+	private Random r; //부품
+	private int [] numbers;
+	                  //static{} , {} 초기자
+	public Lotto() { //특수한 목적 : member field 초기화 : (생성자 함수), constructor
+		scanner = new Scanner(System.in); //초기화 (참조 변수는 주소값을 갖는 것) 
+		r = new Random();
+		numbers = new int[6];
+	}
+	
+	//기능을 구현하세요
+	//
+	
+	//r.nextInt(45)+1    >>   1~45
+	
+//	public void SelectLottoNumber() {
+		public String displayMenu(Scanner scanner) {
+			
+			System.out.println("*******************");
+			System.out.println("*******로또*******");
+			System.out.println("1. 로또 번호 뽑기 ");
+			System.out.println();
+			System.out.println("2. 정렬하기 ");
+			System.out.println();
+			System.out.println("3. 출력하기");
+			System.out.println();
+			System.out.println("4. 프로그램 종료");
+			System.out.println();
+			String menu = scanner.nextLine();
+			return menu;
+
+		}	
+		
+		static void inputRecord() {
+			System.out.println("로또 번호");
+			int [] lotto = new int[6];
+			
+			for(int i = 0; i < lotto.length; i++) {
+				lotto[i] = (int)(Math.random()*45+1);  // 추출
+				for(int j = 0; j < i; j++) 
+					if(lotto[i] == lotto[j]) {
+						i--; //point
+						break;
+					}
+				
+			}
+			
+		}
+		
+		static void deleteRecord() {
+			System.out.println("성적 데이터 삭제 : ");
+		}
+		
+		static void sortRecord() {
+			System.out.println("성적 데이터 정렬");
+		}
+		
+
+				
+				
+		
+	
+		
+	
+	
+	
+	
+	
+	
+	
+	
+} // end Lotto

@@ -1,0 +1,12 @@
+import mo.MC;
+
+public class Movie_01 {
+
+	public static void main(String[] args) {
+		MC mc = new MC();
+		mc.displayMenu();
+
+		
+	}
+
+}

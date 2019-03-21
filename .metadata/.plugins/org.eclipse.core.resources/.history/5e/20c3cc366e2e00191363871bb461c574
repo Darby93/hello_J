@@ -1,0 +1,12 @@
+package kr.or.bit;
+
+public class Airplane {
+	public int name;
+	public int number;
+	
+	public void cardInfo() {
+		System.out.printf("이름 : %d , 번호 : %s , h : %d , w : %d\n",number,kind,h,w);
+	}
+
+	public String name;
+}

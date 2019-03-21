@@ -1,0 +1,12 @@
+package kr.or.bit;
+
+/*
+접근자(한정자, 수정자) : modifier
+public : (공유 : 폴더(package) 구분 없이 모든 자원을 공요)
+private : (개인 : 클래스 내부에서는 공유)
+
+
+*/
+public class Car {
+
+}

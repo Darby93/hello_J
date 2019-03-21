@@ -1,0 +1,26 @@
+import kr.or.bit.Card;
+
+public class Ex05_Static_CardMake {
+
+	public static void main(String[] args) {
+		Card c = new Card();
+		c.number = 1;
+		c.kind = "heart";
+		c.cardInfo();
+		
+		Card c2 = new Card();
+		c2.number = 10;
+		c2.kind = "heart";
+		c2.cardInfo();
+		//.........................................
+		//이 때 고객이 카드가 ...카드크기를 늘려주세요
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

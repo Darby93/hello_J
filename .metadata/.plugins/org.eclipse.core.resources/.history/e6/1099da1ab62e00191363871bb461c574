@@ -1,0 +1,27 @@
+package Study;
+
+import Study_class.Fan;
+
+
+public class Study_04 {
+
+	public static void main(String[] args) {
+		Fan fan = new Fan();
+		air.number = 101;
+		air.name = "種種1";
+		air.airInfo();
+
+
+		AirPlane air2 = new AirPlane();
+		air2.number = 102;
+		air2.name = "種種2";
+		air2.airInfo();
+
+
+		AirPlane air3 = new AirPlane();
+		air3.number = 103;
+		air3.name = "種種3";
+		air3.airInfo();
+	}
+
+}

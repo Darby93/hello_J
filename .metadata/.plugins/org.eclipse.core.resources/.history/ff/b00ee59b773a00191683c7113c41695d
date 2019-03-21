@@ -1,0 +1,13 @@
+package pattern;
+
+public class Drink_main {
+
+	public static void main(String[] args) {
+		Drink d = new GreenTea();
+		d.boil();
+		d.input();
+		d.make();
+		d.pour();
+	}
+
+}

@@ -1,0 +1,11 @@
+package kr.or.bit;
+
+/*
+접근자(한정자, 수정자) : modifier
+
+
+
+*/
+public class Car {
+
+}

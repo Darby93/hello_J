@@ -1,0 +1,18 @@
+import kr.or.bit.Card;
+
+public class Ex05_Static_CardMake {
+
+	public static void main(String[] args) {
+		Card c = new Card();
+		
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

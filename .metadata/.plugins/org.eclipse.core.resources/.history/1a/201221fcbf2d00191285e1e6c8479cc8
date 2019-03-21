@@ -1,0 +1,19 @@
+package Group_2;
+
+public class Vacuum {
+	public String company;
+	public String model;
+	public String color;
+	public String date;
+	public int maxBattery;
+	
+	public int suctionForce;
+	public int restoBattery;
+	public int presentSpeed;
+	public boolean power;
+	
+	Brush brush = new Brush();
+	Motor motor = new Motor();
+	Charger charger = new Charger();
+	
+}

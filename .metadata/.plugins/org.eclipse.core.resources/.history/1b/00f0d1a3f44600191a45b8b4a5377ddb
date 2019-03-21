@@ -1,0 +1,8 @@
+
+public class asdfsadf {
+
+	public static void main(String[] args) {
+		System.out.println("1층 로비\n2층 디럭스 룸 4개\n3층 이그제큐티브 룸 1개\n     스위트 룸 1개");
+	}
+
+}

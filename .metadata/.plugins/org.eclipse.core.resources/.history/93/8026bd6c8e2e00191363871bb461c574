@@ -1,0 +1,19 @@
+
+class Date{
+	int i;
+	
+}
+
+
+
+
+public class Ex10_Method_Call {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+	}
+
+}

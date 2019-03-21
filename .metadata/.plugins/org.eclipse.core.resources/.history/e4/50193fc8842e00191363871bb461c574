@@ -1,0 +1,29 @@
+//static method
+class StaticClass{
+	public int iv; //멤버필드
+	static int cv; //멤버필드
+	
+	//일반함수
+	void m () {
+		//일반함수 m() 에서 iv 값을 처리 : (0)
+		iv = 100;
+		//일반함수 m() cv값을 처리 : (0)
+		cv = 200;
+	}
+}
+
+
+
+
+
+
+
+public class Ex07_Static_Method {
+
+	public static void main(String[] args) {
+		System.out.println(StaticClass.iv);
+		
+		
+	}
+
+}

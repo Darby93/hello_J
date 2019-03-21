@@ -1,0 +1,13 @@
+package Study_class;
+
+public class Fan {
+	private String brand;
+	private String model;
+	private String color;
+	
+	private static int price;
+	
+
+	
+	
+}

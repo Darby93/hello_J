@@ -1,0 +1,20 @@
+package Study;
+
+public class Test {
+	public int a;
+	private int b;
+	
+	public int getB() {  //read
+		return b;
+	}
+	public void setB(int b) {  //write
+		this.b = b;
+	}
+	
+	public int add;
+    public int c;
+	
+	
+	
+	
+}

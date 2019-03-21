@@ -1,0 +1,46 @@
+import kr.or.bit.Emp;
+
+class Test{
+	void print() {
+		System.out.println("부모함수_Test");
+	}
+}
+
+class Test2 extends Test{
+
+	@Override
+	void print() {
+		System.out.println("자식함수_Test2_개발자맘대롱");
+	}
+	
+	void print(String s) {
+		System.out.println("나는 오버로딩 함수야 ^^");
+	}
+	
+	
+}
+
+public class Ex05_Inherit_Override {
+
+	public static void main(String[] args) {
+		Test2 test = new Test2();
+		test.print();
+		test.print("오버로딩");
+		
+		System.out.println(test); //default toString()로 붙어있음
+		System.out.println(test.toString());
+		
+		//Emp 클래스에서 Object 가지는 toString() 재정의
+		Emp e = new Emp(9999,"아무개");
+		String str = e.toString();
+		System.out.println(str);
+		
+		int [] arr = {11,23,45,67,77};
+		Arrays.
+		
+	}
+	
+	
+	
+
+}

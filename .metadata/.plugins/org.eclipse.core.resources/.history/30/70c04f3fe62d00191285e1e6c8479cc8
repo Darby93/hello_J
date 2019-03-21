@@ -1,0 +1,12 @@
+package Study_class;
+
+import Study.Test;
+
+public class PrintTest {
+	public static void main(String [] args) {
+		Test test = new Test();
+		test.a = 3;
+		test.setB = 4;
+		
+	}
+}

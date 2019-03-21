@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class practice_01 {
+	public static void main (String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("값1을 입력하세요");
+		int num1 = Integer.parseInt(sc.nextLine());
+		
+		
+	}
+	
+	
+	
+	
+	
+
+}

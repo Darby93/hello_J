@@ -1,0 +1,74 @@
+package kr.or.bit;
+
+import java.util.Random;
+import java.util.Scanner;
+
+public class Lotto2 {
+	private int [] numbers2;
+	private Scanner sc;
+	private Random r;
+	private int num;
+	
+	public Lotto2() {
+		sc = new Scanner(System.in);
+		r = new Random();
+		numbers2 = new int [6];
+		num = r.nextInt(45)+1;
+	}
+	
+	
+	public void numberArray() {
+		 numbers2[0] = num;
+//		 System.out.println(numbers2[0]);
+//		 numbers2[1] = numbers2[0] + 1;
+//		 numbers2[2] = numbers2[1] + 1;
+//		 numbers2[3] = numbers2[2] + 1;
+//		 numbers2[4] = numbers2[3] + 1;
+//		 numbers2[5] = numbers2[4] + 1;
+		 for (int i = 1; i < numbers2.length; i++) {
+			  numbers2[i] = numbers2[i-1] + 1;
+//			  System.out.println(numbers2[i]);
+		   }
+		   
+		   for (int value : numbers2) {
+			   System.out.println(value);
+		   }
+
+		   //44,45,46,47,48,49
+//		for (int i = 0; i < numbers2.length; i++) {
+//			for (int j = 46; j <= 50; j++) {
+//				if (numbers2[i] == j) {
+//					numbers2[i] = 1;
+//				}
+//			}
+//		}
+		
+		for (int value : numbers2) {
+			   System.out.println(value);
+		   }
+		   
+		for(int value : numbers2) {
+			System.out.println(value);
+		}
+		   
+
+			   
+			   
+//			   if (numbers2[i] == 46) {
+//				   numbers2[i] = 1;
+//			   }else if (numbers2[i] == 47) {
+//				   numbers2[i] = 2;
+//			   }else if (numbers2[i] == 48) {
+//				   numbers2[i] = 3;
+//			   }else if (numbers2[i] == 49) {
+//				   numbers2[i] = 4;
+//			   }else if (numbers2[i] == 50) {
+//				   numbers2[i] = 5;
+//			   }	   
+
+		   }
+		   
+		
+		   
+	   }
+

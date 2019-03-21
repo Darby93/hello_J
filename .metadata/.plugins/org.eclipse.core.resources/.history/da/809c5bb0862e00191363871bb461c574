@@ -1,0 +1,9 @@
+
+public class Ex08_Static_Method {
+	
+	int iv = 100;
+
+	public static void main(String[] args) {
+	}
+
+}

@@ -1,0 +1,16 @@
+import kr.or.bit.FunctionClass;
+
+public class Ex02_Method_Call {
+
+	public static void main(String[] args) {
+		FunctionClass fc = new FunctionClass();
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

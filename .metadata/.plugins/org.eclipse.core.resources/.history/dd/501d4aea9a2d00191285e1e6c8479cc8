@@ -1,0 +1,23 @@
+import kr.or.bit.Person;
+
+public class Ex01_Ref_Type {
+
+	public static void main(String[] args) {
+		Person person; //STACK 영역에 4 Byte 빈 공간 (person) null 
+		person = new Person(); 
+		//HEAP 메모리에 Person 객체 만들고 person 변수에 주소값을 할당
+		System.out.println("person : " + person); //person : kr.or.bit.Person@15db9742
+		
+		person.name = "홍길동";
+		person.age = 100;
+		person.print();
+		
+		Person person2 = new Person(); //선언과 할당
+		person2.name = "김유신";
+		person2.age = 120;
+		person2.print();
+		
+		
+	}
+
+}

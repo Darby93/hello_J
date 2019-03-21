@@ -1,0 +1,27 @@
+
+public class Ex08_Static_Method {
+	
+	int iv = 100;
+	static int cv = 200;
+	
+	void method() {
+		System.out.println("나 일반함수");
+	}
+	
+	static void smethod() {
+		System.out.println("나 공유자원이야(static 함수)");
+	}
+	
+	
+	public static void main(String[] args) {
+		Ex08_Static_Method ex = new Ex08_Static_Method();
+		System.out.println(ex.iv);
+		ex.method();
+		
+		Ex08_Static_Method.smethod();
+		
+		
+		
+	}
+
+}

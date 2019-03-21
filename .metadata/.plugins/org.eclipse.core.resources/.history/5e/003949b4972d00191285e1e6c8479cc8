@@ -1,0 +1,10 @@
+package kr.or.bit;
+
+public class Ex01_Ref_Type {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

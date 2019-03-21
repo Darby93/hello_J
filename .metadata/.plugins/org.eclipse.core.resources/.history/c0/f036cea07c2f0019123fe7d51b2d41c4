@@ -1,0 +1,8 @@
+
+public class Lotto_01 {
+
+	public static void main(String[] args) {
+		int [] lotto = new int[6];
+	}
+
+}

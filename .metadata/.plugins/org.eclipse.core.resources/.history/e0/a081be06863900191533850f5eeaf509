@@ -1,0 +1,32 @@
+//String 클래스 (다양한 함수)
+//개발에서 많이 사용(우리가 사용한 데이터는 대부분 문자열 데이터)
+
+public class Ex06_String_Function {
+	public static void main(String[] args) {
+		String str = ""; //문자열 초기화
+		
+		String[] strarr = {"aaa", "bbb", "ccc"};
+		for(String s : strarr) {
+			System.out.println(s);
+		}
+		//String 클래스 (함수)
+		String ss = "hello";
+		String concatstr = ss.concat("world");
+		
+		System.out.println(concatstr);
+		boolean bo = ss.contains("ele");
+		System.out.println(bo);
+		
+		String ss2 = "a b c d"; //[a][][b][][c][][d]
+		System.out.println(ss2.length());
+		
+		String filename = "hello java, world";
+		System.out.println(filename.indexOf(","));
+		System.out.println(filename.indexOf("java"));
+		
+		//활용 : 문장내에서 내가 원하는 단어가 포함 되어있는지를 검증
+		// 0 보다 큰 값 .. 최소한 하나의 단어 포함
+		
+	}
+
+}

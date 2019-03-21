@@ -1,0 +1,13 @@
+package Group_2;
+
+public class Vacuum {
+	String mfg;
+	String mod;
+		
+		
+		
+		
+		
+	
+
+}

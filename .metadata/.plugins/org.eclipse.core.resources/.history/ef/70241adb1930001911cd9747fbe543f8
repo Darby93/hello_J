@@ -1,0 +1,21 @@
+package kr.or.bit;
+
+//Emp e = new Emp();
+public class Emp {
+	private int empno;
+	private String ename;
+	
+	public Emp() { //생성자 함수
+		empno = 
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

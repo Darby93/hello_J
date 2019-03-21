@@ -1,0 +1,40 @@
+package Study_class;
+
+public class Fan {
+	private String brand;
+	private String model;
+	private String color;
+	public int speed;
+	
+	private static int price;
+	
+	Motor mo;
+	
+	public void powerOn() {
+		System.out.println("전원이 켜졌습니다");
+	}
+
+	public void powerOff() {
+		System.out.println("전원이 꺼졌습니다");
+	}
+	
+	public void speed1() {
+		speed = 1;
+		System.out.println("흡입력이 올라갑니다");
+	}
+
+	public void speed2() {
+		speed -= 1;
+		System.out.println("흡입력이 내려갑니다");
+	}
+	
+	public void speed3() {
+		speed -= 1;
+		System.out.println("흡입력이 내려갑니다");
+	}
+	
+	    
+
+}
+
+

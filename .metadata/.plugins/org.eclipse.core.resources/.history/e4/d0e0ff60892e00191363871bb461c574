@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Ex09_Static_do_while_Menu {
+	static Scanner sc = new Scanner(System.in);
+	static void inputRecord() {
+		System.out.println("己利 单捞磐 涝仿 : ");
+	}
+	
+	static void deleteRecord() {
+		System.out.println("己利 单捞磐 昏力 : ");
+	}
+	
+	static void sortRecord() {
+		System.out.println("己利 单捞磐 沥纺");
+	}
+	
+	static int displayMenu() {
+		System.out.println("*******************");
+		System.out.println("*******己利包府*******");
+		System.out.println("1. 切积己利 涝仿窍扁 ");
+		System.out.println();
+		System.out.println();
+		System.out.println();
+		System.out.println();
+	}
+	
+	
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

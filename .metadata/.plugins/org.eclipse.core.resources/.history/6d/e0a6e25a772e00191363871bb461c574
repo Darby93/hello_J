@@ -1,0 +1,21 @@
+package Group_2;
+
+import java.util.Scanner;
+
+public class Flow01 {
+
+	public static void main(String[] args) {
+		int unit =10000;
+		int num = 0;
+		int sw = 0;
+		
+		Scanner sc = new Scanner(System.in);
+		System.out.println("머니를 입력하세요");
+		int money = Integer.parseInt(sc.nextLine());
+		
+		num = money/unit;
+		System.out.println(unit);
+		System.out.println(num);
+	}
+
+}

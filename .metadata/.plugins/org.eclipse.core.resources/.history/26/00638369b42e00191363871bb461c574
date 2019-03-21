@@ -1,0 +1,25 @@
+package Study_class;
+
+public class Fan {
+	private String brand;
+	private String model;
+	private String color;
+	public int speed;
+	public boolean power;
+	
+	private static int price;
+	
+	Motor mo;
+	
+
+	public void speed(int speed) {
+
+		System.out.println("단계입니다.");
+	}
+
+	
+	    
+
+}
+
+

@@ -1,0 +1,23 @@
+
+class Data{
+	int i;
+}
+
+
+
+
+public class Ex10_Method_Call {
+	public static void main(String[] args) {
+		Data d  = new Data();
+		d.i = 100;
+		System.out.println("d.i : " + d.i);
+		
+		scall(d);
+		System.out.println("d.i : " + d.i);
+	}
+	
+	static void scall(Data data) {
+		System.out.println("ÇÔ¼ö : " + data.i);
+		data.i = 1111;
+	}
+}

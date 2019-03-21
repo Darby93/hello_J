@@ -1,0 +1,9 @@
+//배열(Array)는 객체다
+public class Ex01_Array_Basic {
+
+	public static void main(String[] args) {
+		int[] score = new int[3];
+		
+	}
+
+}

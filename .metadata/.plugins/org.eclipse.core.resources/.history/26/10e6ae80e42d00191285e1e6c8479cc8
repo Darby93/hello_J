@@ -1,0 +1,18 @@
+package Study;
+
+public class Study_01 {
+
+	public static void main(String[] args) {
+		int a = 2;
+		int b = 3;
+		int momo = 0;
+		( a < b ? b : a ) {
+			
+		}
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+package kr.or.bit;
+
+/*
+요구사항 정의
+Tv는 채널 정보를 가지고 있다( ex) 1~250채널 )
+Tv는 브랜드 이름을 가지고 있다 ( ex) 삼성, LG)
+Tv는 채널 전환 기능을 가지고 있다 ( 채널 변경 가능 한단계씩)
+기능 2개  (++ , --)
+*/
+public class Tv {
+	public int ch; //public  int ch = 1;
+	public String brandname;
+	
+	public void ch_up() {
+		//member field 상태 값
+		ch++;
+	}
+	
+	public void ch_down() {
+		//member field 상태 값
+		ch--;
+	}
+	
+	
+}

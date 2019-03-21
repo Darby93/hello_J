@@ -1,0 +1,18 @@
+class Test {
+    Tv a = new Tv();
+    
+    public void m() {
+        Car c = new Car();
+        m2(c);
+    }
+    private void m2(Car c) {
+        System.out.println(c);
+    }
+}
+
+public class Tttt {
+    main() {
+        Test t = new Test();
+        t.m();
+    }
+}

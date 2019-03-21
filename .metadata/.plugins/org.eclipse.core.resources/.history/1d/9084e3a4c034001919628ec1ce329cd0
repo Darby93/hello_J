@@ -1,0 +1,33 @@
+
+class Test{
+	void print() {
+		System.out.println("부모함수_Test");
+	}
+}
+
+class Test2 extends Test{
+
+	@Override
+	void print() {
+		System.out.println("자식함수_Test2_개발자맘대롱");
+	}
+	
+	void print(String s) {
+		System.out.println("나는 오버로딩 함수야 ^^");
+	}
+	
+	
+}
+
+public class Ex05_Inherit_Override {
+
+	public static void main(String[] args) {
+		Test2 test = new Test2();
+		test.print();
+		test.print("오버로딩");
+		
+		System.out.println(test); //default toString()로 붙어있음
+		System.out.println(test.toString());
+	}
+
+}

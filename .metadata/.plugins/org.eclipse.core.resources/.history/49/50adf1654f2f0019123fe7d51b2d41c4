@@ -1,0 +1,30 @@
+
+public class Ex01_Array_Quiz {
+
+	public static void main(String[] args) {
+		//수학과 학생들의 기말고사 시험점수 
+		int [] score = new int[] {79,88,97,54,54,95};
+		int max = score[0]; //79
+		int min = score[0]; //79
+		
+		/*
+		제어문을 사용해서 max 변수에 최대값 (최고점수) min 변수에는 최소값(최하점수)
+		값이 들어가게 하세요!
+		결과) max > 97   , min > 54
+		*/
+		
+		for(int i = 0; i < score.length; i++) {
+			if(max < score[i]) {
+				max = score[i];
+			}
+			if(min > score[i]) {
+				max = score[i];
+			}
+			System.out.println(max);
+		}
+		
+		
+		
+	}
+
+}

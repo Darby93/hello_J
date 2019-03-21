@@ -1,0 +1,22 @@
+import kr.or.bit.Lotto;
+
+public class Ex03_Lotto_Class_Main {
+
+	public static void main(String[] args) {
+		Lotto lotto = new Lotto();
+	   
+//		while(true) {
+//			switch(displayMenu()) {
+//			case  : inputRecord();
+//				break;
+//			case 2 : deleteRecord();
+//				break;
+//			case 3 : sortRecord();
+//				break;
+//			case 4 : System.out.println("프로그램 종료");
+//				     System.exit(0); //프로그램 종료
+//			}
+//		}
+	}
+
+}

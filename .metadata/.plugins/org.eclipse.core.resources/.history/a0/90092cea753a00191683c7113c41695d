@@ -1,0 +1,14 @@
+package pattern;
+
+public abstract  class Drink {
+	public void boil() {
+		System.out.println("물을 끓인다");
+	}
+	
+	abstract void input();
+	abstract void make();
+	
+	public void sour() {
+		System.out.println("물을 끓인다");
+	}
+}

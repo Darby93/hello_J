@@ -1,0 +1,29 @@
+package Study;
+
+
+import Study_class.Fan;
+import Study_class.Motor;
+
+
+public class Study_04 {
+
+	public static void main(String[] args) {
+		Fan fan = new Fan();
+		fan.setBrand("鳴撩");
+		fan.name = "種種摹Ё晦";
+		fan.airInfo();
+		
+		
+		Motor motor = new motor;
+		motor.number = 101;
+		motor.name = "種種賅攪";
+		motor.airInfo();
+		
+		
+		
+		
+		
+		
+	}
+
+}

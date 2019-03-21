@@ -1,0 +1,10 @@
+import kr.or.bit.Lottopr;
+
+public class Ex03_Lotto_Class_Main {
+
+	public static void main(String[] args) {
+		Lottopr lotto = new Lottopr();
+	   
+	}
+
+}

@@ -1,0 +1,19 @@
+import kr.or.bit.Emp;
+
+//Array 에서 가장 주용한 부분은 : 객체배열
+//[실무에서 가장 많이 쓰이니까]
+
+public class Ex05_Object_Array {
+
+	public static void main(String[] args) {
+		//신입사원 3명
+		//Array 배우지 않았어요
+		Emp e = new Emp();
+		Emp e2 = new Emp();
+		Emp e3 = new Emp();
+		
+		
+		
+	}
+
+}

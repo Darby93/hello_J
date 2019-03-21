@@ -1,0 +1,40 @@
+//연습용 (Ex04_Variable_Scope.java 파일 안에다 클래스 만듬)
+
+class Variable{
+	int iv;
+	/*
+	1. member field, instance variable
+	2. 목적 : 정보를 담을 려고 만든다 (상태, 고유, 참조 (부품))
+	3. 특징 : 초기값을 (default) 가지고 있다. (정수 > 0, 실수 > 0.0, boolean > false
+	           초기화를 하지 않는다.(생성되는 객체마다 다른 값을 갖는다)
+	4. 생성시점(memory에 로딩되는 시점) : new라는 연산자를 통해서 heap 객체가 만들어 지고 나서 
+	*/
+	
+	static int cv;
+	/*
+	1. class variable, static variable (공유 자원)
+	2. 목적 : 정보를 담을 려고 만든다 >> [생성되는 모든 객체가 공유하는 자원] >> 객체간 공유자원
+	3. 특징 : 접근방법이  >> 클래스이름.static자원	(Variable.cv) >> 객체가 만들어지지 않아도 접근 가능
+	                                                          (Math.random();)
+	
+	
+	
+	*/
+}
+
+
+
+public class Ex04_VariableSscope {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

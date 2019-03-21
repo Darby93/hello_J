@@ -1,0 +1,10 @@
+class Man{
+	String name;
+	int age;
+}
+public class Ex12_Method_Overloading_Object {
+
+	public static void main(String[] args) {
+	}
+
+}

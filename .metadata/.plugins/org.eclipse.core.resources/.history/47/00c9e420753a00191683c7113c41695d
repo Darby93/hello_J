@@ -1,0 +1,7 @@
+package pattern;
+
+public class Drink {
+	public void boil() {
+		System.out.println("물을 끓인다");
+	}
+}

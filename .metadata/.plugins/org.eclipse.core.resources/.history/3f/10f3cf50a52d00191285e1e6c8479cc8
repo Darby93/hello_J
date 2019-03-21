@@ -1,0 +1,20 @@
+import kr.or.bit.FunctionClass;
+
+public class Ex02_Method_Call {
+
+	public static void main(String[] args) {
+		
+		FunctionClass fc = new FunctionClass();
+		fc.m();
+		fc.m2(100);
+		int result =  fc.m3(); //return type ¿÷¿∏∏È .....
+		
+		
+		
+		
+		
+		
+		
+	}
+
+}

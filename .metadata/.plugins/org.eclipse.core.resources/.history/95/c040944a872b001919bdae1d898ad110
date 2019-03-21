@@ -1,0 +1,25 @@
+
+public class Assignment_05 {
+
+	public static void main(String[] args) {
+		for (int i = 4; i <= 6; i++) {
+			for (int j = 4; j <= 6; j++) {
+				if (i >= j) {
+				System.out.print("*");
+				}else {
+					System.out.print(" ");
+				}
+			}
+			
+			for (int o = 5; o <= 6; o++) {
+				if (i >= o) {
+				System.out.print("*");
+				}else {
+					System.out.print(" ");
+				}
+			}
+			System.out.println();
+
+		}
+	}
+}

@@ -1,0 +1,23 @@
+import kr.or.bit.FunctionClass;
+
+public class Ex02_Method_Call {
+
+	public static void main(String[] args) {
+		
+		FunctionClass fc = new FunctionClass();
+		fc.m();
+		fc.m2(100);
+		int result =  fc.m3(); //return type ¿÷¿∏∏È .....
+		System.out.println("result : " + result);
+		result = fc.m4(1000);
+		System.out.println("result 2 : " + result2);
+		
+		result = fc.sum(100);
+		System.out.println("result3 : " + result3);
+		
+		result = fc.sum2(200);
+		System.out.println("result4 : " + result);
+		
+	}
+
+}
