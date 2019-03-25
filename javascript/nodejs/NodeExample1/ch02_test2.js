@@ -9,3 +9,5 @@ if (process.argv.length > 2){
 process.argv.forEach(function(item, index){
     console.log(index + ':', item);
 });
+
+
