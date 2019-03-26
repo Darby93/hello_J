@@ -32,7 +32,7 @@ import java.sql.Statement;
 
 5. 작업순서
  	DB 연결 -> 명령 - > 실행 -> 처리 -> 자원해제
- 	명령 : DDL(clreate, drop, alter)
+ 	명령 : DDL(create, drop, alter)
 	     CRUD (insert, select(60%), update, delete)
 	실행 : DB 서버에게 전달(구문)
 	처리 : 화면에 출력, 다른 곳에 전달 .. 개발자가...
@@ -54,6 +54,7 @@ public class Ex01_Oracle_Connection {
 		
 		//getConnection Connection 구현한 객체의 주소값을 리턴
 		Connection conn = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:XE", "bituser","1004");
+		System.out.println(conn);
 		System.out.println("정상 (False) : "+ conn.isClosed());
 		
 		Statement stnt = conn.createStatement(); //명령 객체 얻어오기

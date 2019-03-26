@@ -32,7 +32,7 @@ public class Ex02_MariaDB_Connection {
 		
 		try {
 			//2. 드라이버 로딩
-			Class.class.forName("com.mysql.cj.jdbc.Driver");
+			Class.forName("com.mysql.cj.jdbc.Driver");
 			System.out.println("MariaDB");
 			
 			//3. 연결객체 생성
@@ -90,13 +90,17 @@ public class Ex02_MariaDB_Connection {
 			//2. Single row Read
 			//3. Multi row Read
 			//위 3가지를 만족하는 코드 생성
-
+			
+			int number = 1;
+			
 			if(rs.next()) {
 				//강제 do ~ while
 				do {
 					System.out.println(rs.getInt("empno") + "/" + 
 		                       rs.getString("ename") + "/" +
 					           rs.getString("job"));   
+					System.out.println(number);
+					number ++;
 				} while(rs.next());
 			}else {
 				System.out.println("조회된 데이터가 없습니다");
@@ -117,8 +121,11 @@ public class Ex02_MariaDB_Connection {
 			*/
 			
 			if(rs != null) try {rs.close();}catch(Exception e2) {}
+			System.out.println("RS END");
 			if(stmt != null) try {stmt.close();}catch(Exception e2) {}
+			System.out.println("STMT END");
 			if(conn != null) try {conn.close();}catch(Exception e2) {}
+			System.out.println("CONN END");
 		}
 		
 		
