@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <section name="Workbench">
 	<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+		<item value="C:\FrontendBackend\Labs\database\jdbc\Labs"/>
 		<item value="C:\FrontandBackand\Labs\projectgood"/>
 		<item value="C:\project03"/>
 		<item value="C:\poject_b"/>
