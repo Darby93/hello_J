@@ -3277,3 +3277,12 @@ update department set dname='부부' where deptno=30;
 commit;
 
 delete from
+
+
+create table temp22222(
+  id number constraint pk_temp8_id primary key,
+  name varchar(20) not null,
+  jumin char(6) constraint uk_temp8_jumin unique, --null도 허용 >> not null 
+  addr varchar2(20)
+);
+

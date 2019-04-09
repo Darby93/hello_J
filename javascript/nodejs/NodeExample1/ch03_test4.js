@@ -7,10 +7,11 @@ person.add = function(a,b){
 };
 
 var oper = function(a,b){
-    return 10*12;
+    return a*b;
 };
 
 
 
 
 console.log(person.add(20,30));
+console.log(oper(10,20));
