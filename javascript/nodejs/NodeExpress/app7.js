@@ -19,10 +19,10 @@ app.use(function(req, res, next) {
     console.log('첫 번째 미들웨어 실행');
 
     var userAgent = req.header('User-Agent');
-    var paramName = req.body.name || req.query.name;
+    var paramId = req.body.id || req.query.id;
 
     res.send('<h3>서버에서 응답 User-Agent -> ' + userAgent  +'</h3>'
-    + '<h3>Param Name -> '+ paramName + '</h3>');
+    + '<h3>Param Id -> '+ paramId + '</h3>');
     
 });
 
