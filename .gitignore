@@ -1,1 +1,4 @@
 /.metadata/
+*.md
+javascript/nodejs/DatabaseExample/node_modules/
+javascript/nodejs/NodeExpress/node_modules/

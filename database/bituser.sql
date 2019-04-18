@@ -3286,3 +3286,18 @@ create table temp22222(
   addr varchar2(20)
 );
 
+CREATE TABLE koreaMember
+(
+    id VARCHAR2(50) PRIMARY KEY ,
+    pwd VARCHAR2(50) NOT NULL,
+    NAME VARCHAR2(50) NOT NULL,
+    age NUMBER ,
+    gender CHAR(4),
+    email VARCHAR2(50),
+    ip   VARCHAR2(50)
+);
+
+select * from koreaMember;
+
+select count(empno) from emp;
+select count(id) from koreaMember where id='jang';
